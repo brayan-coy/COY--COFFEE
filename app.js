@@ -2,9 +2,9 @@
 const cafeMolido = [
   {
     id: 101,
-    name: "Café Molido Clásico22",
+    name: "Café Molido Clásico223",
     price: 9000,
-    image: "cafeuno.jpeg",
+    image: "cafecuatro.jpeg",
   },
   {
     id: 102,
