@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #641e16;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para el encabezado 1 */
+#header1 {
+  text-align: center;
+  font-size: 36px;
+  color: gold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Efecto de sombra suave */
+}
+
+/* Estilos para el botón "Productos" */
+
+/* Estilos para las secciones "Café molido" y "Café en Grano" */
+#cafe-molido-section,
+#cafe-en-grano-section {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Estilos para los productos de café */
+.product-item {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+.product-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.product-name {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.product-price {
+  margin-top: 5px;
+}
+
+.textouno {
+  color: black;
+  background-color: #ddd;
+}
