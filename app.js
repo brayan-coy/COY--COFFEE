@@ -4,33 +4,33 @@ const cafeMolido = [
     id: 101,
     name: "Café Molido Clásico22",
     price: 9000,
-    image: "cafeuno.JPEG",
+    image: "cafeuno.jpeg",
   },
   {
     id: 102,
     name: "Café Molido Clásico33",
     price: 9000,
-    image: "cafedos.JPEG",
+    image: "cafedos.jpeg",
   },
   {
     id: 101,
     name: "Café Molido Clásico22",
     price: 9000,
-    image: "cafetres.JPEG",
-  },
-
-  {
-    id: 101,
-    name: "Café Molido Clásico22",
-    price: 9000,
-    image: "cafecuatro.JPEG",
+    image: "cafetres.jpeg",
   },
 
   {
     id: 101,
     name: "Café Molido Clásico22",
     price: 9000,
-    image: "cafecinco.JPEG",
+    image: "cafecuatro.jpeg",
+  },
+
+  {
+    id: 101,
+    name: "Café Molido Clásico22",
+    price: 9000,
+    image: "cafecinco.jpeg",
   },
 
   //SEGUNDA SECCION CAFE
@@ -38,13 +38,13 @@ const cafeMolido = [
     id: 101,
     name: "Café Molido Clásico22",
     price: 9000,
-    image: "cafeuno.JPEG",
+    image: "cafeuno.jpeg",
   },
   {
     id: 101,
     name: "Café Molido Clásico22",
     price: 9000,
-    image: "cafeuno.JPEG",
+    image: "cafeuno.jpeg",
   },
   {
     id: 101,
@@ -76,7 +76,7 @@ const cafeEnGrano = [
     id: 201,
     name: "Café en Grano Premium",
     price: 10000,
-    image: "granouno.JPEG",
+    image: "granouno.jpeg",
   },
   {
     id: 202,
