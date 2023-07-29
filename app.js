@@ -171,4 +171,18 @@ cargarImagenesEnSeccion("#cafe-molido-section", cafeMolido);
 // Cargar imágenes de café en grano en la sección "Café en Grano"
 cargarImagenesEnSeccion("#cafe-en-grano-section", cafeEnGrano);
 
-// Evento de clic para mostrar/ocultar el menú desplegable al hacer clic en el botón "Productos"
+//REPRODUCIR EL VIDEO
+// Función para cargar el video de manera automática y reproducirlo
+function cargarVideo() {
+  const videoElement = document.getElementById("video");
+  videoElement.play();
+}
+
+// Llama a la función para cargar y reproducir el video al cargar la página
+cargarVideo();
+
+// JavaScript (app.js)
+document.addEventListener("DOMContentLoaded", function () {
+  const videoElement = document.getElementById("video");
+  videoElement.play();
+});

@@ -57,3 +57,11 @@ body {
   color: black;
   background-color: #ddd;
 }
+.video {
+  width: 100%;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
