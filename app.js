@@ -2,70 +2,68 @@
 const cafeMolido = [
   {
     id: 101,
-    name: "Café Molido Clásico223",
-    price: 9000,
-    image: "cafecuatro.jpeg",
+    name: "CAFÉ MOLIDO",
+
+    image: "cafeuno.jpeg",
   },
   {
     id: 102,
-    name: "Café Molido Clásico33",
-    price: 9000,
+    name: "CAFÉ MOLIDO",
+
     image: "cafedos.jpeg",
   },
   {
     id: 101,
-    name: "Café Molido Clásico22",
-    price: 9000,
+    name: "CAFÉ MOLIDO",
+
     image: "cafetres.jpeg",
   },
 
   {
     id: 101,
-    name: "Café Molido Clásico22",
-    price: 9000,
+    name: "CAFÉ MOLIDO",
+
     image: "cafecuatro.jpeg",
   },
 
   {
     id: 101,
-    name: "Café Molido Clásico22",
-    price: 9000,
+    name: "CAFÉ MOLIDO",
+
     image: "cafecinco.jpeg",
   },
 
   //SEGUNDA SECCION CAFE
   {
     id: 101,
-    name: "Café Molido Clásico22",
-    price: 9000,
-    image: "cafeuno.jpeg",
-  },
-  {
-    id: 101,
-    name: "Café Molido Clásico22",
-    price: 9000,
-    image: "cafeuno.jpeg",
-  },
-  {
-    id: 101,
-    name: "Café Molido Clásico22",
-    price: 9000,
-    image: "cafedos.jpeg",
-  },
-  {
-    id: 101,
-    name: "Café Molido Clásico22",
-    price: 9000,
-    image: "cafecuatro.jpeg",
-  },
-  {
-    id: 101,
-    name: "Café Molido Clásico22",
-    price: 9000,
-    image: "cafecuatro.jpeg",
-  },
+    name: "CAFÉ MOLIDO",
 
-  // Agrega más productos de café molido aquí
+    image: "cafeseis.jpeg",
+  },
+  {
+    id: 101,
+    name: "CAFÉ MOLIDO",
+
+    image: "cafesiete.jpeg",
+  },
+  {
+    id: 101,
+    name: "CAFÉ MOLIDO",
+
+    image: "cafeocho.jpeg",
+  },
+  {
+    id: 101,
+    name: "CAFÉ MOLIDO",
+
+    image: "cafenueve.jpeg",
+  },
+  {
+    id: 101,
+    name: "CAFÉ MOLIDO",
+    price: 9000,
+    image: "cafedies.jpeg",
+  },
 ];
 
 //************************************************************************** */
@@ -74,64 +72,54 @@ const cafeMolido = [
 const cafeEnGrano = [
   {
     id: 201,
-    name: "Café en Grano Premium",
-    price: 10000,
-    image: "granouno.jpeg",
+    name: "CAFÉ EN GRANO",
+    image: "cafegranouno.jpeg",
   },
   {
     id: 202,
-    name: "Café en Grano Orgánico",
-    price: 9500,
-    image: "granodos.jpeg",
+    name: "CAFÉ EN GRANO",
+    image: "cafegranodos.jpeg",
   },
 
   {
     id: 202,
-    name: "Café en Grano Orgánico",
-    price: 9500,
-    image: "granotres.jpeg",
+    name: "CAFÉ EN GRANO",
+    image: "cafegranotres.jpeg",
   },
   {
     id: 202,
-    name: "Café en Grano Orgánico",
-    price: 9500,
-    image: "cafecuatro.jpeg",
+    name: "CAFÉ EN GRANO",
+    image: "cafegranocuatro.jpeg",
   },
   {
     id: 202,
-    name: "Café en Grano Orgánico",
-    price: 9500,
+    name: "CAFÉ EN GRANO",
     image: "cafecinco.jpeg",
   },
   {
     id: 202,
-    name: "Café en Grano Orgánico",
-    price: 9500,
-    image: "granoseis.jpeg",
+    name: "CAFÉ EN GRANO",
+    image: "cafegranoseis.jpeg",
   },
   {
     id: 202,
-    name: "Café en Grano Orgánico",
-    price: 9500,
-    image: "granodos.jpeg",
+    name: "CAFÉ EN GRANO",
+    image: "cafegranosiete.jpeg",
   },
   {
     id: 202,
-    name: "Café en Grano Orgánico",
-    price: 9500,
-    image: "granotres.jpeg",
+    name: "CAFÉ EN GRANO",
+    image: "cafegranoocho.jpeg",
   },
   {
     id: 202,
-    name: "Café en Grano Orgánico",
-    price: 9500,
-    image: "granouno.jpeg",
+    name: "CAFÉ EN GRANO",
+    image: "cafegranonueve.jpeg",
   },
   {
     id: 202,
-    name: "Café en Grano Orgánico",
-    price: 9500,
-    image: "granodos.jpeg",
+    name: "CAFÉ EN GRANO",
+    image: "cafegranouno.jpeg",
   },
 
   // Agrega más productos de café en grano aquí
@@ -186,3 +174,28 @@ document.addEventListener("DOMContentLoaded", function () {
   const videoElement = document.getElementById("video");
   videoElement.play();
 });
+
+/* seccion boton despliegue  de boton*/
+function toggleProductos() {
+  var productosSection = document.getElementById("productosSection");
+  if (productosSection.style.display === "none") {
+    productosSection.style.display = "block";
+  } else {
+    productosSection.style.display = "none";
+  }
+}
+
+toggleProducto();
+
+// Agregamos la clase "productods-fixed" al botón cuando alcance cierta posición
+window.onscroll = function () {
+  var button = document.querySelector(".productods");
+  var distanciaDesdeArriba = button.offsetTop;
+  var scrollY = window.scrollY || window.pageYOffset;
+
+  if (scrollY > distanciaDesdeArriba) {
+    button.classList.add("productods-fixed");
+  } else {
+    button.classList.remove("productods-fixed");
+  }
+};
