@@ -169,6 +169,7 @@ p {
 }
 
 .producto {
+  width: 40%;
   background-color: black;
   color: gold;
 }
