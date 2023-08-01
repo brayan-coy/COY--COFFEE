@@ -167,3 +167,11 @@ p {
   color: darkgreen;
   font-size: 30px;
 }
+
+.producto {
+  background-color: black;
+  color: gold;
+}
+.precio4 {
+  color: darkgreen;
+}
